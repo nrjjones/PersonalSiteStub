@@ -1,0 +1,26 @@
+name: "Nathan R Jones"
+output_dir: "."
+navbar:
+  title: "Nathan R Jones"
+  left:
+    - text: "Page 1"
+      href: p1.html
+    - text: "Page 2"
+      href: p2.html
+    - text: "Page 3"
+      href: p3.html
+    - text: "Page 4"
+      href: p4.html
+    - text: "About"
+      href: about.html
+    - text: "CV"
+      href: cv.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/nrjjones  
+output:
+    html_document:
+       theme: paper
+       css: 'styles.css'
